@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+fieldset{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: 1px solid black;
+}
+
+legend{
+    background-color: #ccc;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+form div{
+    padding: 10px;
+
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+
+

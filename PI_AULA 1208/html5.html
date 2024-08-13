@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= "container"> 
+        <h1>Fale conosco</h1>
+        
+        <!-- 
+            nome
+            email
+            assunto (sugestão, elogio, reclamação)
+            coemntário
+            receber resposta no email( opção sim ou não)
+            botão de enviar
+         -->
+
+        <form action="" method="post">
+            <fieldset>
+            <legend>Contato</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input placeholder="Digite seu nome completo"text" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo email -->
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+
+            </div>
+
+            <!-- Campo assunto -->
+
+            <div>
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option>Sugestão</option>
+                    <option selected>Elogio</option>
+                    <option>Reclamação</option>
+                </select>
+                
+            </div>
+
+            <!-- Campo comentário -->
+
+            <div>
+                <label for="comentário">Deixe seu comentário</label>
+                <textarea name="comentário" id="comentário" required cols="30" rows="10"></textarea>
+
+            </div>
+
+            <!-- Receber resposta no email (opção sim ou não) -->
+            <div>
+                <p>Gostaria de receber uma resposta no seu e-mail ?</p>
+                <input type="radio" name="resposta" id="sim">
+                <label for="sim">Sim</label>
+                <br>
+                <input type="radio" name="resposta" id="nao">
+                <label for="nao">Não</label>
+            </div>
+
+            <!-- botão de enviar -->
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+
+        </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>

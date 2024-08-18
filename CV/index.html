@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= "container"> 
+        <h1>Currículo</h1>
+
+        <form action="" method="post">
+            <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="nome">Nome completo:</label>
+                <input placeholder="Digite seu nome completo"text" name="nome" id="nome" required>
+            </div>
+
+    <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+
+    </div>
+
+    <div>
+        <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+                  
+    </div>
+
+    <div>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco">
+
+    </div>
+
+    <div>
+        <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento">
+
+    </div>
+
+    <div>
+        <label for="senha">Senha de Acompanhamento:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+     </div>
+
+     </fieldset>
+
+     <fieldset>
+
+            <legend>Conhecimentos e Experiências</legend>
+
+            <DIV>
+                <label for="instituicao">Instituição de ensino:</label>
+            <input type="text" id="instituicao" name="instituicao" required>
+
+            </DIV>
+
+            <div>
+                <label for="formacao">Formação Acadêmica:</label>
+            <input type="text" id="formacao" name="formacao" required>
+
+            </div>
+
+            <div>
+                <label for="experiencia">Experiência Profissional:</label>
+            <textarea id="experiencia" name="experiencia" rows="4"></textarea>
+
+            </div>
+
+            <div>
+                <label for="conhecimentos">Conhecimentos Técnicos:</label>
+                <textarea id="conhecimentos" name="conhecimentos" rows="4"></textarea>
+
+            </select>
+
+
+            </div>
+
+            <div>
+                <label for="nivel">Nível de Inglês:</label>
+            <select id="nivel" name="nivel">
+                <option value="basico">Básico</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+                <option value="fluente">Fluente</option>
+            </select>
+
+            </div>
+                                
+            </fieldset>
+
+        <fieldset>
+
+            <legend>Vaga(s) de Interesse e Pretensão Salarial</legend>
+            <div>
+                <label for="vagas">Vaga(s) de Interesse:</label>
+            <select id="vagas" name="vagas[]" multiple required>
+                <option value="frontend">Desenvolvedor Frontend</option>
+                <option value="backend">Desenvolvedor Backend</option>
+                <option value="fullstack">Desenvolvedor Fullstack</option>
+                <option value="php">Desenvolver PHP</option>
+                <option value="desenvolvedor">Desenvolver web</option>
+            </select>
+
+            </div>
+
+            <div>
+                <label for="salario">Pretensão Salarial:</label>
+            <input type="number" id="salario" name="salario" placeholder="R$" required>
+
+            </div>
+            
+            <div>
+                <label for="Forma de contratacao">Forma de contratação:</label>
+            <select id="formadecontratacao" name="formadecontratacao[]" multiple required>
+                <option value="remoto">Remoto</option>
+                <option value="hibrido">Híbrido</option>
+                <option value="presencial">Presencial</option>
+
+            </select>
+
+            </div>
+                        
+        </fieldset>
+
+        <legend>Termos de Uso</legend>
+
+            <textarea id="termos" rows="6" readonly>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla magna ut lorem tempus, at facilisis risus condimentum. Nam viverra metus sit amet felis lacinia, at tempor eros efficitur. Integer pulvinar vehicula magna, at consequat eros fringilla et. Sed bibendum neque non mi scelerisque, vitae fermentum nulla vehicula.
+            </textarea>
+        
+            <div>
+                <label for="aceito">
+                    <input type="checkbox" id="aceito" name="aceito" required> Aceito os termos de uso
+                </label>
+  
+            </div>
+                    </fieldset>
+
+        <button type="submit">Enviar Currículo</button>
+    </form>
+
+</body>
+</html>
+
+
+ 
+    
+</body>
+</html>
